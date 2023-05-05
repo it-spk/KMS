@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>KMS инструкция</title>
+</head>
+<body>
+    
+    <div class="window">
+        <h1 class="header-title">
+            KMS инструкция
+        </h1>
+        <div class="container">
+            <h2 class="subtitle">WINDOWS activation: </h2>
+            <div class="windows-code">
+                <ul class="widows-activation">
+                    <input type="text" value="slmgr /skms kms.itspk.kz" id="myInput" class="form-windows10"> 
+                    <button onclick="myFunction()" class="button-copy"><img src="img/copy.png" alt="copy" class="img-copy"></button>
+                    <br>
+                    <input type="text" value="slmgr.vbs -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX" id="myInput2" class="form-windows10"> 
+                    <button onclick="myFunction2()" class="button-copy"><img src="img/copy.png" alt="copy" class="img-copy"></button>
+                    <br>
+                    <input type="text" value="slmgr /ato" id="myInput3" class="form-windows10"> 
+                    <button onclick="myFunction3()" class="button-copy"><img src="img/copy.png" alt="copy" class="img-copy"></button>
+                </ul> 
+            </div>
+            <h2 class="subtitle">WINDOWS key: </h2>
+            <ol>
+                <li><b>WINDOWS 11:</b> <br> slmgr.vbs -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX</li> <br>
+                <li><b>WINDOWS 10:</b> <br> slmgr.vbs -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX</li> <br>
+                <li><b>WINDOWS 8.1 PRO:</b> <br> slmgr.vbs -ipk GCRJD-8NW9H-F2CDX-CCM8D-9D6T9</li> <br>
+                <li><b>WINDOWS 7 PRO:</b> <br> slmgr.vbs -ipk FJ82H-XT6CR-J8D7P-XQJJ2-GPDD4</li> <br>
+                <li><b>WINDOWS SERVER 2019:</b> <br> slmgr.vbs -ipk N69G4-B89J2-4G8F4-WWYCC-J464C</li> <br>
+                <li><b>WINDOWS SERVER 2016:</b> <br> slmgr.vbs -ipk WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY</li> <br>
+                <li><b>WINDOWS SERVER 2012:</b> <br> slmgr.vbs -ipk BN3D2-R7TKB-3YPBD-8DRP2-27GG4</li> <br>
+                <li><b>WINDOWS SERVER 2008 R2 :</b> <br> slmgr.vbs -ipk YC6KT-GKW9T-YTKYR-T4X34-R7VHC</li> <br>
+            </ol>
+            <hr/>
+            <br>
+            <h2 class="office">
+                OFFICE 2016: 
+            </h2>
+            <ul class="office-list">
+                <li>cd \Program Files\Microsoft Office\Office16</li>
+                <li>cscript ospp.vbs /sethst:kms.itspk.kz</li>
+                <li>cscript ospp.vbs /inpkey:X6TC7-TVK7L-BUJWS-L0XI6-56ERT</li>
+                <li>cscript ospp.vbs /act</li>
+                <li>cscript ospp.vbs /dstatusall</li>
+            </ul>
+            <hr>
+            <br>
+            <h2 class="office">
+                OFFICE 2019 PRO: 
+            </h2>
+            <ul class="office-list">
+                <li>cd \Program Files\Microsoft Office\Office19</li>
+                <li>cscript ospp.vbs /sethst:kms.itspk.kz</li>
+                <li>cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP</li>
+                <li>cscript ospp.vbs /act</li>
+                <li>cscript ospp.vbs /dstatusall</li>
+            </ul>
+            <br><br>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
